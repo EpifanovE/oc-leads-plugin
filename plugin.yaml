@@ -1,0 +1,17 @@
+plugin:
+    name: 'eev.leads::lang.plugin.name'
+    description: 'eev.leads::lang.plugin.description'
+    author: 'Evgeny Epifanov'
+    icon: icon-bell
+    homepage: 'https://eecode.ru'
+permissions:
+    eev.leads.manage-leads:
+        tab: 'eev.leads::lang.leads'
+        label: 'eev.leads::lang.manage-leads'
+navigation:
+    leads:
+        label: 'eev.leads::lang.plugin.name'
+        url: eev/leads/leadcontroller
+        icon: icon-bell
+        permissions:
+            - eev.leads.manage-leads

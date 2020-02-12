@@ -1,0 +1,14 @@
+name: 'eev.leads::lang.lead'
+form: $/eev/leads/models/lead/fields.yaml
+modelClass: EEV\Leads\Models\Lead
+defaultRedirect: eev/leads/leadcontroller
+create:
+    title: 'eev.leads::lang.creating'
+    redirect: 'eev/leads/leadcontroller/update/:id'
+    redirectClose: eev/leads/leadcontroller
+    flashSave: 'eev.leads::lang.saved'
+update:
+    title: 'eev.leads::lang.updating'
+    redirect: eev/leads/leadcontroller
+    redirectClose: eev/leads/leadcontroller
+    flashSave: 'eev.leads::lang.saved'

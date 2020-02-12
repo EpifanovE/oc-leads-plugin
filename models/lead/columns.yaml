@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: ID
+        type: number
+        sortable: true
+    name:
+        label: 'eev.leads::lang.lead_name'
+        type: text
+        searchable: true
+        sortable: true
+    data_for_column:
+        label: 'eev.leads::lang.data'
+        sortable: false
+    status_label:
+        label: 'eev.leads::lang.status'
+        type: partial
+        path: ~/plugins/eev/leads/models/lead/_status.htm
+        sortable: false
+    created_at:
+        label: 'eev.leads::lang.created_at'
+        type: datetime
+        sortable: true
+    updated_at:
+        label: 'eev.leads::lang.updated_at'
+        type: datetime
+        sortable: true

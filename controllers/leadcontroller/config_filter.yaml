@@ -1,0 +1,11 @@
+scopes:
+  status:
+    label: 'eev.leads::lang.status'
+    type: group
+    conditions: status in (:filtered)
+    modelClass: \EEV\Leads\Models\Lead
+    options: getStatusFilterOptions
+  created_at:
+    label: 'eev.leads::lang.created_at'
+    type: daterange
+    conditions: created_at >= ':after' AND created_at <= ':before'

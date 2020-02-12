@@ -1,0 +1,28 @@
+fields:
+  name:
+    label: 'eev.leads::lang.lead_name'
+    span: full
+    type: text
+  data:
+    label: 'eev.leads::lang.data'
+    type: datatable
+    adding: true
+    fieldName: data
+    columns:
+      type:
+        title: 'eev.leads::lang.type'
+        type: dropdown
+      value:
+        title: 'eev.leads::lang.value'
+        type: string
+      note:
+        title: 'eev.leads::lang.note'
+        type: string
+  note:
+    label: 'eev.leads::lang.note'
+    type: textarea
+    size: large
+  status:
+    label: 'eev.leads::lang.status'
+    span: full
+    type: dropdown
