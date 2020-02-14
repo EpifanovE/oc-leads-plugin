@@ -1,5 +1,4 @@
 1.0.0:
     - 'Initialize plugin.'
-1.0.1:
-    - 'Created table eev_leads_leads'
-    - builder_table_create_eev_leads_leads.php
+    - create_eev_leads_leads_table.php
+
